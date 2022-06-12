@@ -1,0 +1,34 @@
+{
+    "1": {
+        "id": "1",
+        "name": "Raph",
+        "img": "1.png",
+        "price": "2000",
+        "deskription": "black",
+        "color": "black"
+    },
+    "2": {
+        "id": "2",
+        "name": "Polo",
+        "img": "2.png",
+        "price": "1000",
+        "deskription": "blue",
+        "color": "blue"
+    },
+    "3": {
+        "id": "3",
+        "name": "Puma",
+        "img": "3.png",
+        "price": "500",
+        "deskription": "red",
+        "color": "red"
+    },
+    "4": {
+        "id": "4",
+        "name": "Helly",
+        "img": "4.png",
+        "price": "3000",
+        "deskription": "green",
+        "color": "green"
+    }
+}

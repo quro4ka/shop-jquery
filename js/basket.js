@@ -13,7 +13,7 @@ function showBasket() {
   if (jQuery.isEmptyObject(basket)) {
     $('.basket').html('Basket is empty!');
   } else {
-    $.getJSON('gun.json', function (data) {
+    $.getJSON('clothes.json', function (data) {
       let sum = 0;
       let count = 0;
       let out = '<div class="basket__title">Basket</div>';

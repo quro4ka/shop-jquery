@@ -1,7 +1,7 @@
 basket = {};
 
 function start_shop() {
-  $.getJSON('gun.json', products_out);
+  $.getJSON('clothes.json', products_out);
 }
 
 function products_out(data) {
@@ -34,7 +34,7 @@ function addToBasket() {
 }
 
 function showMiniBasket() {
-  $.getJSON('gun.json', function (data) {
+  $.getJSON('clothes.json', function (data) {
     // console.log(basket);
     let sum = 0;
     let out = `<div class="basket__title">Basket total: Price:  </div>`;

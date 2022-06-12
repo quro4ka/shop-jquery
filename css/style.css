@@ -155,16 +155,19 @@ img {
 .basket__name {
     margin-left: 20px;
     margin-top: 30px;
+    width: 60px;
 }
 
 .basket__description {
     margin-left: 50px;
     margin-top: 30px;
+    width: 100px;
 }
 
 .basket__price {
     margin-left: 120px;
     margin-top: 30px;
+    width: 100px;
 }
 
 .basket__delete {
@@ -186,7 +189,12 @@ img {
     margin-top: 10px;
 }
 
-.basket__minus, .basket__plus {
+.basket__minus {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.basket__plus {
     margin-left: 20px;
     margin-top: 30px;
 }
